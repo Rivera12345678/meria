@@ -1,0 +1,23 @@
+
+
+.col-md-6__flex{
+    display: flex;
+}
+
+.col-md__flex{
+    display: flex;
+}
+.popup-close{
+    color: #000;
+    width: 12px;
+    height: 12px;
+   
+  }
+  .popup-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.3s;
+  }

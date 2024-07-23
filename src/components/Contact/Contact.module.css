@@ -1,0 +1,165 @@
+
+
+
+
+.row{
+    width: 100%;
+
+}
+
+.col_md_flex{
+    display: flex;
+    justify-content: center;
+}
+.col_md_6_flex{
+    display: flex;
+}
+.mask {
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    background-color: #f1f2f1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-color: none;
+ 
+    height: 38px;
+}
+.mask {
+    border-color: none;
+}
+.form_control{
+    background-color: #f1f2f1;
+    width: 100%;
+    height: 38px;
+    margin-top: 10px;
+    justify-content: center;
+    border: none;
+}
+
+.form_control input{
+    background-color: #f1f2f1;
+    width: 100%;
+    height: 38px;
+   
+    justify-content: center;
+   
+}
+
+
+.form_group select{
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    background-color: #f1f2f1;
+    width: 100%;
+    height: 38px;
+}
+.form_groupt select{
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    background-color: #f1f2f1;
+    
+    height: 38px;
+}
+.col_md_6{
+    width: 100%;
+    padding: 0px 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.mininput{
+    width: 100%;
+    padding: 0px 10px;
+    font-size: 16px;
+}
+
+.form_group input{
+    padding-left: 10px;
+    border: none;  
+}
+.form_group select{
+    padding-left: 10px;
+}
+.form_group{
+    width: 100%;
+    height: 87px;
+    margin-bottom: 16px;    
+}
+.form_groupt{
+    width: 100%;
+    height: 87px;
+    margin-bottom: 16px;
+    border: none;
+}
+.form_groupt label span img{
+    width: 15px;
+    height: 16px;
+    margin-left: 5px;
+}
+.form_group label span{
+    color: #ff0000;
+}
+.form_group label span img{
+    width: 15px;
+    height: 16px;
+    margin-left: 5px;
+}
+.form_control input  {
+    padding-left: 10px;
+    background-color: #f1f2f1;
+    width: 100%;
+    height: 38px;
+    border: none;
+}
+.form_group label{
+    font-weight: 700;
+    color:  #0068ac;
+    position: relative;
+    display: block;
+    overflow-y: scroll;
+    margin-bottom: 10px; 
+}
+.form_control {
+    border-radius: 6px;
+}
+.lb_text{
+    color:  rgb(0, 104, 172);
+}
+.lb_text i{
+    color: red;
+}
+.lb_text span {
+    margin-left: 5px;
+}
+.span{
+    color: #ffffff;
+}
+
+
+
+.error-border  {
+    border: 2px solid #dc3545 ;
+    border-radius: 8px;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  
+
+
+ 
+
+@media screen and (max-width: 650px) {
+   .col_md_flex{
+    flex-wrap: wrap;
+   }
+   .col_md_6_flex{
+    flex-wrap: wrap;
+   }
+}

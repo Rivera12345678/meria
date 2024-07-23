@@ -1,0 +1,278 @@
+
+
+.family__card{
+    height: 128px;
+    width: 100%;
+    background-color:  #F0F4FF;
+   
+}
+
+.family__flex {
+    display: flex;
+    color: #0069ac;
+    font-size: 16px;
+    /* border: 1px solid red; */
+
+
+}
+
+.family__flex span{
+    margin-left: 35px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.family__button{
+    padding: 12px, 12px, 20px, 12px;
+    margin-top: 12px;
+    height: 30px;
+    width: 100%;
+    font-size: 16px;
+    /* border: 1px solid red; */
+}
+
+
+.form_groupp input {
+    padding-left: 10px;
+}
+
+.form_groupp{
+    height: 87px;
+    margin: 0 auto;
+    width: 100%;
+    
+
+ }
+
+.form_groupp select{
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    background-color: #f1f2f1;
+    width: 100%;
+    height: 38px;
+    padding: 5px 25px 5px 5px;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    
+
+}
+
+
+.family__button button svg{
+    color: #FFFFFf;
+    width: 16px;
+    height: 14px;
+}
+
+.form_groupp label{
+    color:  rgb(0, 104, 172);
+    font-weight: 700;
+    font-size: 16px;
+
+}
+
+
+.family{
+    
+    width: 100% ;
+    
+    background-color:  #ffffff !important;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    
+}
+.family__card{
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-color: #f0f4ff  !important;
+    border-radius: 6px;
+    
+    
+}
+
+.family__div{
+    width: 93px !important;
+    z-index: 999 !important;
+    background-color: #f0f4ff !important;
+    margin-bottom: 5px;
+    position: absolute !important;
+    right: 20px !important;
+    height: 37px !important;
+    padding: 9px !important;
+    line-height: initial;
+    color: #0069AC;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    
+    
+    
+}
+
+.table_bordered{
+    width: 100% ;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-top: none;
+    overflow: auto;
+    display: block;
+    
+    
+    
+
+    
+}
+
+.family__div table{
+    border-radius: 5px;
+    background-color: #F0F4FF ;
+    border: none;
+    white-space: nowrap;
+    color: #0069AC;
+    padding: 5px;
+    width: 100%;
+    border-collapse: collapse;
+    
+    
+
+}
+.lb_text{
+    margin-top: 15px;
+
+    font-weight: 700;
+    height: 56px;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    margin-left: 0;
+    color: #0069AC;
+    align-items: center;
+}
+
+.family__td{
+
+    align-items: start;
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+  
+}
+
+.family__open{
+    background-color: #0068AC;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 4px;
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    
+    
+    
+}
+
+
+.family__button button svg{
+    color: #FFFFFf;
+    width: 16px;
+    height: 14px;
+}
+
+
+
+
+.button__delete div img {
+    width: 20px;
+    height: 20px;
+}
+.button__delete{
+    display: flex;
+    gap: 20px;
+    width: 93px !important;
+    z-index: 999 !important;
+    background-color: #f0f4ff !important;
+    position: absolute !important;
+    right: 20px !important;
+    height: 37px !important;
+    color: #0069AC;
+    font-weight: 700;
+    padding: 9px !important;
+    line-height: initial;
+    
+}
+
+.tr_td_text {    
+    /* border: 1px solid red; */
+    border-top: none;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    padding-right: 20px;
+
+    font-weight: 700;
+    font-style: 16px;
+      
+}
+
+
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: none;
+    padding-bottom: 20px;
+}
+
+.group__flex{
+    padding: 0px 10px;
+    margin: 0 auto;
+    width: 100%;
+    
+
+}
+
+
+
+
+.family__edit  {
+    background: #007bff; /* Blue color for edit button */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    width: auto;
+    margin-right: 0.5rem;
+  }
+  
+  .family__delete  {
+    background: #dc3545; /* Red color for delete button */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .family_edit_flex{
+    display: flex;
+    background-color: none;
+    justify-content: end;
+    width: 100% ;
+  }
+  .family__edit:hover,
+  .family__delete:hover {
+    opacity: 0.8;
+  }
+  

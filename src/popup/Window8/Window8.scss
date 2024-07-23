@@ -1,0 +1,27 @@
+.col-md-6__flex{
+    display: flex;
+}
+
+.col-md__flex{
+    display: flex;
+}
+
+.form-group label{
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+    color: #0069AC;
+}
+
+
+
+.error-border {
+    border: 2px solid #dc3545;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+ 

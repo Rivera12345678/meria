@@ -1,0 +1,199 @@
+
+.family{
+    
+    width: 100% ;
+ 
+    background-color:  #ffffff !important;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    
+}
+.family__card{
+    flex: 0 0 100%;
+    max-width: 100%;
+    background-color: #f0f4ff  !important;
+    border-radius: 6px;
+    
+    
+}
+
+.family__div{
+    width: 93px !important;
+    z-index: 999 !important;
+    background-color: #f0f4ff !important;
+    margin-bottom: 5px;
+    position: absolute !important;
+    right: 20px !important;
+    height: 37px !important;
+    padding: 9px !important;
+    line-height: initial;
+    color: #0069AC;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    
+    
+    
+}
+
+
+
+
+.table_bordered{
+   
+    margin-bottom: 1rem;
+    color: #212529;
+    border-top: none;
+    overflow: auto;
+    display: block;
+    
+    
+}
+.table_bordered table {
+    width: 1457px;
+}
+
+.family__div table{
+    border-radius: 5px;
+    background-color: #F0F4FF ;
+    border: none;
+    white-space: nowrap;
+    color: #0069AC;
+    padding: 5px;
+    width: 100%;
+    border-collapse: collapse;
+    
+    
+
+}
+.lb_text{
+    margin-top: 15px;
+    font-weight: 700;
+    height: 56px;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    margin-left: 0;
+    color: #0069AC;
+    align-items: center;
+}
+
+.family__td{
+
+    align-items: start;
+    font-size: 16px;
+    color: #000000;
+   /* border: 1px solid red; */
+   
+   
+   
+    
+}
+.family__open{
+    background-color: #0068AC;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: none;
+    
+    
+    
+}
+
+
+.family__button button svg{
+    color: #FFFFFf;
+    width: 16px;
+    height: 14px;
+}
+.tdshka{
+    padding: 0 !important; 
+}
+
+
+
+.button__delete div img {
+    width: 20px;
+    height: 20px;
+}
+.button__delete{
+    display: flex;
+    gap: 20px;
+    width: 93px !important;
+    z-index: 999 !important;
+    background-color: #f0f4ff !important;
+    position: absolute !important;
+    right: 20px !important;
+    height: 37px !important;
+    color: #0069AC;
+    font-weight: 700;
+    padding: 9px !important;
+    line-height: initial;
+    
+}
+
+.tr_td_text {    
+    /* border: 1px solid red; */
+    border-top: none;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    padding-left: 12px;
+    padding-right: 20px;
+
+    font-weight: 700;
+    font-style: 16px;
+      
+}
+
+
+.table td, .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: none;
+    padding-bottom: 20px;
+}
+
+
+.family__td{
+    justify-content: center;
+    text-align: center;
+    padding: 0, 10px, 0,10px;
+}
+
+.family__edit  {
+    background: #007bff; /* Blue color for edit button */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    width: auto;
+    margin-right: 0.5rem;
+  }
+  
+  .family__delete  {
+    background: #dc3545; /* Red color for delete button */
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .family_edit_flex{
+    display: flex;
+    background-color: none;
+  }
+  .family__edit:hover,
+  .family__delete:hover {
+    opacity: 0.8;
+  }

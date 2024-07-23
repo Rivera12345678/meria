@@ -1,0 +1,46 @@
+*{  
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  
+}
+
+.container{
+  max-width: 1310px;
+  margin: 0px auto; 
+}
+
+h4{
+  margin-top: 30px;
+  text-align: center ;
+  font-size: 20px;
+  margin-bottom: 30px;
+  width: 100%;
+  font-weight: 700; 
+}
+img{
+  color: red;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+  border: none;
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  background-color:  #F0F4FF;  
+}
+th{
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: none;
+  padding-bottom: 20px;
+}
+button{
+  margin-top: 10px;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
